@@ -16,8 +16,8 @@ namespace Faker.UnitTests
         [SetUp]
         public void Setup()
         {
-            Assembly.LoadFile(@"D:\STUDYING\3_course\严蟎Labs\Vyachka.Faker\Faker.IntGenerator\bin\Debug\net5.0\ref\Faker.IntGenerator.dll");
-            Assembly.LoadFile(@"D:\STUDYING\3_course\严蟎Labs\Vyachka.Faker\Faker.ListGenerator\bin\Debug\net5.0\ref\Faker.ListGenerator.dll");
+            Assembly.LoadFile(@"D:\STUDYING\3_course\严蟎Labs\Vyachka.Faker\Faker.IntGenerator\bin\Debug\net5.0\Faker.IntGenerator.dll");
+            Assembly.LoadFile(@"D:\STUDYING\3_course\严蟎Labs\Vyachka.Faker\Faker.ListGenerator\bin\Debug\net5.0\Faker.ListGenerator.dll");
             faker = new FakerImpl();
         }
 
